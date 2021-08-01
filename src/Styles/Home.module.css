@@ -1,3 +1,43 @@
-.heading1 {
-  color: red;
+.backgroundDiv {
+  background-color: rgb(229, 9, 20);
+
+  /* background-image: url("../Public/Images/netflixImage.jpg"); */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blackOpacity {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centerDiv {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacerDiv {
+  height: 20px;
+}
+
+.largeHeading1 {
+  font-size: 4rem;
+}
+
+.largeHeading2 {
+  font-size: 1.625rem;
+}
+
+.largeHeading3 {
+  font-size: 1.2rem;
 }
