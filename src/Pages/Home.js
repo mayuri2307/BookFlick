@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <div className={`${styles.backgroundDiv}`}>
-        {/* <h1>This is front page</h1> */}
+        <h1>This is front page</h1>
 
         <div className={styles.blackOpacity}>
           <FirstPageCenterComponent />
